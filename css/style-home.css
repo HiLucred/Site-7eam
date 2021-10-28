@@ -93,17 +93,28 @@
 }
 
 .endereco{
-    padding: 10% 0;
     background-color: rgb(165, 113, 250);
     font-size: 22px;
-    vertical-align: middle;
+    height: 900px;
+}
+
+.container-endereco{
+    width: 960px;
+    height: 828px;  
+    color: rgb(252, 242, 227);
+    background-color: rgb(106, 68, 168);
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 0px 0px 5px black;
+    margin: 0px auto 0px auto;
 }
 
 .rodape{
     text-align: center;
     padding: 1% 0;
     background-color: slategrey;
-    height: 100px;
+    color: rgb(250, 242, 229);
+    height: 150px;
     
 }
 
@@ -112,7 +123,7 @@
 }
 
 #insta{
-    color: black;
+    color: rgb(36, 36, 36);
     transition: 0.3s;
 }
 
@@ -121,7 +132,7 @@
 }
 
 #tt{
-    color: black;
+    color: rgb(36, 36, 36);
     transition: 0.3s;
 }
 
@@ -130,7 +141,7 @@
 }
 
 #face{
-    color: black;
+    color: rgb(36, 36, 36);
     transition: 0.3s;
 }
 

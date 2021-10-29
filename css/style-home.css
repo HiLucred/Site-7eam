@@ -72,6 +72,10 @@
     text-align: center;
 }
 
+.div-clientes{
+    margin: 0 auto 0 auto;
+}
+
 .clientes span{
     background-color: rgb(124, 9, 124);
     border: 1px solid red;

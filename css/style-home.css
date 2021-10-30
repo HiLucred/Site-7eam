@@ -11,7 +11,18 @@
     background-color: #586273;
     padding-left: 100px;
     min-height: 50px;
+    vertical-align: text-bottom;
+    font-size: large;
+    color: white !important;
 }
+.menu a{
+    margin-right: 30px;
+    color: white !important;
+}
+.menu a:hover{
+    color: rgb(180, 180, 180) !important;
+}
+
 
 .menu img{
     min-width: 140px;
@@ -175,7 +186,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     text-align: center;
-    
+
 }
 .div-clientes:hover{
     background-color: rgb(201, 199, 199);

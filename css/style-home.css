@@ -99,7 +99,8 @@
 .endereco{
     background-color: rgb(165, 113, 250);
     font-size: 22px;
-    height: 900px;
+    height: 1000px;
+    padding: 100px 0;
 }
 
 .container-endereco{
@@ -173,6 +174,8 @@
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    text-align: center;
+    
 }
 .div-clientes:hover{
     background-color: rgb(201, 199, 199);

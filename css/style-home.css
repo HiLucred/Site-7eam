@@ -11,7 +11,18 @@
     background-color: #586273;
     padding-left: 100px;
     min-height: 50px;
+    vertical-align: text-bottom;
+    font-size: large;
+    color: white !important;
 }
+.menu a{
+    margin-right: 30px;
+    color: white !important;
+}
+.menu a:hover{
+    color: rgb(180, 180, 180) !important;
+}
+
 
 .menu img{
     min-width: 140px;
@@ -28,8 +39,8 @@
 .buttonJB{
     background-color: #8A56D6;
     color: honeydew;
-    border: 1px solid #603b97;
-    box-shadow: inset 0 0 1em rgb(165, 113, 250), 0 0 1em rgb(124, 9, 124);
+    border: 1px solid #5a27a7;
+    box-shadow: 0px 5px 5px #40197a;
     border-radius: 10px;
     font-size: 20px;
     padding: 15px;
@@ -41,6 +52,24 @@
     background-size: cover;
     background-position: top;
 }
+.produtos-bg{
+    width: 100%;
+    height: 300px;
+}
+.div-jogo1{
+    width: 315px;
+    height: 300px;
+    float: left;
+}
+.div-descricao-produto{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #6c3486;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .propaganda-bg{
     background-color: #253352;
@@ -49,8 +78,31 @@
     color: cornsilk;
 }
 
+.propaganda-bg img{
+    min-width: 140px;
+    min-height: 60px;
+    width: 10%;
+}
+
+.propaganda-bg h1{
+    padding-bottom: 40px;
+}
+
+.video{
+    width: 965px;
+    height: 645px;
+    padding-top: 3px;
+    background-color:whitesmoke;
+    box-shadow: 0px 0px 30px black;
+    margin: 0 auto 0 auto;
+}
+
 .clientes{
     text-align: center;
+}
+
+.div-clientes{
+    margin: 0 auto 0 auto;
 }
 
 .clientes span{
@@ -74,16 +126,28 @@
 }
 
 .endereco{
-    padding: 10% 0;
     background-color: rgb(165, 113, 250);
     font-size: 22px;
-    vertical-align: middle;
+    height: 1000px;
+    padding: 100px 0;
+}
+
+.container-endereco{
+    width: 960px;
+    height: 828px;  
+    color: rgb(252, 242, 227);
+    background-color: rgb(106, 68, 168);
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 0px 0px 5px black;
+    margin: 0px auto 0px auto;
 }
 
 .rodape{
     text-align: center;
     padding: 1% 0;
     background-color: slategrey;
+    color: rgb(250, 242, 229);
     height: 150px;
     
 }
@@ -93,7 +157,7 @@
 }
 
 #insta{
-    color: black;
+    color: rgb(36, 36, 36);
     transition: 0.3s;
 }
 
@@ -102,7 +166,7 @@
 }
 
 #tt{
-    color: black;
+    color: rgb(36, 36, 36);
     transition: 0.3s;
 }
 
@@ -111,10 +175,66 @@
 }
 
 #face{
-    color: black;
+    color: rgb(36, 36, 36);
     transition: 0.3s;
 }
 
 #face:hover{
     color: rgb(62, 123, 236);
+}
+
+#div-depoimentos{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 0 auto;
+}
+.div-clientes{
+    width: 250px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:gainsboro;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+    border: solid 1.5px rgb(190, 190, 190);
+    margin: 20px;
+    float: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+
+}
+.div-clientes:hover{
+    background-color: rgb(201, 199, 199);
+}
+.div-img-cliente img{
+    width: 230px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.div-descricao-clientes{
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+    color: rgb(139, 139, 139);
+}
+.div-autor-clientes{
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #586273;
+    margin: 20px;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 245, 245);
 }

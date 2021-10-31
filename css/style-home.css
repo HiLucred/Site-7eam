@@ -81,6 +81,9 @@
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.div-descricao-produto:hover{
+    background-color: #361646;
+}
 
 .propaganda-bg{
     background-color: #253352;

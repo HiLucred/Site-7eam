@@ -52,6 +52,24 @@
     background-size: cover;
     background-position: top;
 }
+.produtos-bg{
+    width: 100%;
+    height: 300px;
+}
+.div-jogo1{
+    width: 315px;
+    height: 300px;
+    float: left;
+}
+.div-descricao-produto{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #6c3486;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .propaganda-bg{
     background-color: #253352;

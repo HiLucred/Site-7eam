@@ -1,4 +1,4 @@
-var depoimentos = [ ['Idosa com pistola.png', 'Muito violento! Esta geração está perdida. 0/10', 'Dona Vera'], ['Julius.jpg', 'Este jogo me custou 0,20 centavos. Adorei! 10/10', 'Julius'], ['michael.png', 'Foi o que ela disse', 'Michael Scott'] ]
+var depoimentos = [ ['Idosa com pistola.png', 'Muito violento! Esta geração está perdida. 0/10', 'Dona Vera'], ['Julius.jpg', 'Este jogo me custou 0,20 centavos. Adorei! 10/10', 'Julius'], ['michael.png', 'A melhor experiência da minha vida foi jogar os jogos da 7eam', 'Michael Scott'] ]
 var listaProdutos = [ ['Favorite Worst Nightmare (2020)', 'Jogo FWN.png'], ['Eclipse 97 (2021)', 'Jogo Eclipse 97.png'], ['Paper Theater (2021)','Jogo Paper Theater.png'] ]
 
 

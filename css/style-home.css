@@ -53,14 +53,16 @@
     background-position: top;
 }
 #produtos-bg{
-    width: 100%;
+    width: 1010px;
     height: 400px;
+    margin: 0 auto 0 auto;
     background-color: rgb(255, 255, 255);
 }
 #produtos-bg h2{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .div-jogo{
     width: 315px;
@@ -83,6 +85,25 @@
 }
 .div-descricao-produto:hover{
     background-color: #361646;
+}
+.mais-jogos{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.div-outros-jogos{
+    width: 320px;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 70px;
+    border-radius: 30px;
+    box-shadow: 0 0 1px rgb(119, 119, 119);
+    color: white;
+    background-color: rgb(39, 102, 175);
+    margin: 0 auto 0 auto;
+}
+.div-outros-jogos:hover{
+    background-color: rgb(23, 64, 110);
 }
 
 .propaganda-bg{
@@ -198,16 +219,13 @@
 }
 
 #div-depoimentos{
-    width: 100%;
+    width: 900px;
     height: 400px;
-    background-color: rgb(255, 255, 255);
     margin: 0 auto 0 auto;
 }
 .div-clientes{
     width: 250px;
     height: 320px;
-    margin-left: auto;
-    margin-right: auto;
     background-color:gainsboro;
     box-shadow: 0px 0px 10px rgb(197, 197, 197);
     border: solid 1.5px rgb(190, 190, 190);
@@ -218,7 +236,6 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     text-align: center;
-
 }
 .div-clientes:hover{
     background-color: rgb(201, 199, 199);
@@ -234,8 +251,8 @@
     height: 55px;
     padding-top: 15px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     
     color: rgb(139, 139, 139);
 }

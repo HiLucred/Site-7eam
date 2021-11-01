@@ -108,6 +108,10 @@
     background-color: rgb(39, 102, 175);
     margin: 0 auto 0 auto;
 }
+.div-outros-jogos a{
+    color:white;
+    text-decoration: none;
+}
 .div-outros-jogos:hover{
     background-color: rgb(23, 64, 110);
 }

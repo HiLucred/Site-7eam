@@ -3,6 +3,10 @@
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+#div-cadastro a{
+    color: white;
+    text-decoration: none;
+}
 body{
     background-color: rgb(138, 43, 226);
 }

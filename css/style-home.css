@@ -8,7 +8,7 @@
 }
 
 .menu{
-    background-color: #586273;
+    background-color:rgb(81, 90, 105, 1);
     padding-left: 100px;
     min-height: 50px;
     vertical-align: text-bottom;
@@ -18,9 +18,15 @@
 .menu a{
     margin-right: 30px;
     color: white !important;
+    text-decoration: none;
 }
 .menu a:hover{
     color: rgb(180, 180, 180) !important;
+    text-decoration: underline;
+}
+.div-navegacao{
+    text-align: center;
+    margin-right: 250px;
 }
 
 

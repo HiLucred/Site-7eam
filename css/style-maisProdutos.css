@@ -2,13 +2,13 @@ body{
     background-color: rgb(138, 43, 226);
 }
 #painel-produtos{
-    width: 800px;
-    height: 900px;
+    width: 1200px;
+    height: 930px;
     background-color: rgb(8, 41, 41);
     margin: 0 auto 0 auto;
 }
 .div-titulo h1{
-    padding-left: 120px;
+    text-align: center;
     padding-top: 50px;
     color: rgb(252, 249, 224);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -21,8 +21,9 @@ body{
 .div-card{
     width: 315px;
     height: 300px;
-    margin-left: 50px;
+    margin-left: 60px;
     padding-bottom: 40px;
+    margin-top: 10px;
     float: left;
 }
 .card-img img{
@@ -37,17 +38,20 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 30px;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-top: 15px;
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
+}
+.card-comprar:hover{
+    background-color: rgb(60, 69, 78);
 }
 .div-carrinho{
     width: 300px;
     height: 100px;
     color: white;
-    margin-left: 800px;
+    margin-left: 1200px;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 20px;
@@ -58,4 +62,7 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+.produto-carrinho{
+    background-color: rgb(71, 240, 113);
+    color: black;
+}

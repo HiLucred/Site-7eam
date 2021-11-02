@@ -47,5 +47,6 @@ function comprar(id){
 }
 
 function mudaPagCarrinho(){
+    
     window.location.href = "carrinho.html"
 }

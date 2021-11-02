@@ -45,3 +45,7 @@ function comprar(id){
 
     montarCardProdutos();
 }
+
+function mudaPagCarrinho(){
+    window.location.href = "carrinho.html"
+}

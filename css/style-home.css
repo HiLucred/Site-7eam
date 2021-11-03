@@ -197,11 +197,23 @@
     background-color: slategrey;
     color: rgb(250, 242, 229);
     height: 150px;
+    box-shadow: 0 0 5px black;
     
 }
 
 .rodape i{
     font-size: 40px;
+    padding-left: 20px;
+}
+.redes-sociais{
+    width: 250px;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(58, 121, 216);
+    border-radius: 30px;
+    padding-top: 3px;
+    padding-right: 10px;
+    border: rgb(31, 140, 173) 2px solid;
 }
 
 #insta{
@@ -210,7 +222,7 @@
 }
 
 #insta:hover{
-    color: rgb(214, 8, 152);
+    color: rgb(238, 38, 178);
 }
 
 #tt{
@@ -219,7 +231,7 @@
 }
 
 #tt:hover{
-    color: rgb(138, 171, 241);
+    color: rgb(191, 211, 255);
 }
 
 #face{
@@ -228,7 +240,7 @@
 }
 
 #face:hover{
-    color: rgb(62, 123, 236);
+    color: rgb(96, 152, 255);
 }
 
 #div-depoimentos{

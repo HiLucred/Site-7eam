@@ -1,7 +1,7 @@
 var listaCarrinho = [];
+var produtosComprados;
 
 window.onload = function(){
-
     listaCarrinho = JSON.parse(window.localStorage.getItem("carrinho"));
 
     console.log(listaCarrinho);
@@ -21,18 +21,22 @@ function montarCardProdutos(){
         conteudo += '<img src="img/'+ listaCarrinho[i][1] +'">';
         conteudo += '</div>';
         conteudo += '</div>';
-
         document.getElementById("div-produtos").innerHTML += conteudo;
+
+        produtosComprados += ' ' + listaCarrinho[i][3] + '  /' ;
     }
     
 }
 
 function chamarCompra(){ 
-    alert();
+    alert("Produtos comprados: " + produtosComprados);
+    console.log(produtosComprados);
 }
 
 function limparCarrinho(){
-    listaCarrinho.pop;
-    console.log("Carrinho Limpado!")
+    localStorage.clear();
+    window.location.reload();
+
+    console.log("Carrinho Limpado!");
     console.log(listaCarrinho);
 }

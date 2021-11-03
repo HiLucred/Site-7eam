@@ -1,4 +1,4 @@
-var listaProdutos = [ [0, 'Jogo Cownting Stars.png', false], [1, 'Jogo Eclipse 97.png', false], [2,'Jogo FWN.png', false],[3, 'Jogo Paper Theater.png', false], [4, 'Jogo Crystal Keeper.png', false], [5, 'Jogo Else Where.png', false] ]
+var listaProdutos = [ [0, 'Jogo Cownting Stars.png', false, 'Cownting Stars'], [1, 'Jogo Eclipse 97.png', false, 'Eclipse 97'], [2,'Jogo FWN.png', false, 'Favorite Worst Nightmare'],[3, 'Jogo Paper Theater.png', false, 'Paper Theater'], [4, 'Jogo Crystal Keeper.png', false, 'Crystal Keeper'], [5, 'Jogo Else Where.png', false, 'Else Where'] ]
 
 var carrinho = [];
 

@@ -71,6 +71,7 @@ body{
 .div-finalizar-compra{
     width: 170px;
     height: 50px;
+    float: left;
     background-color: lime;
     margin-top: 20px;
     margin-left: 60px;
@@ -80,4 +81,23 @@ body{
     font-size: 22px;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
+}
+.div-finalizar-compra:hover{
+    background-color: rgb(1, 192, 1);
+}
+.div-limpar-carrinho{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(240, 119, 63);
+    margin-top: 20px;
+    margin-left: 260px;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.div-limpar-carrinho:hover{
+    background-color: rgb(202, 100, 52);
 }

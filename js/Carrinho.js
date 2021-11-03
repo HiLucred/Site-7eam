@@ -26,3 +26,13 @@ function montarCardProdutos(){
     }
     
 }
+
+function chamarCompra(){ 
+    alert();
+}
+
+function limparCarrinho(){
+    listaCarrinho.pop;
+    console.log("Carrinho Limpado!")
+    console.log(listaCarrinho);
+}

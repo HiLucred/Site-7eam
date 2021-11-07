@@ -16,7 +16,7 @@ function montarCardProdutos(){
         var conteudo = "";
         conteudo += '<div class="div-card">';
         conteudo += '<div class="card-img">' ;
-        conteudo += '<img src="img/'+ listaProdutos[i][1] +'">';
+        conteudo += '<img src="../img/'+ listaProdutos[i][1] +'">';
         conteudo += '</div>';
         
         if(listaProdutos[i][2] == false){

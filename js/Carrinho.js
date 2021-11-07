@@ -18,7 +18,7 @@ function montarCardProdutos(){
         var conteudo = "";
         conteudo += '<div class="div-card">';
         conteudo += '<div class="card-img">' ;
-        conteudo += '<img src="img/'+ listaCarrinho[i][1] +'">';
+        conteudo += '<img src="../img/'+ listaCarrinho[i][1] +'">';
         conteudo += '</div>';
         conteudo += '</div>';
         document.getElementById("div-produtos").innerHTML += conteudo;
